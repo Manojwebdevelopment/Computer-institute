@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="index.php" method="post">
+            <div class="field">
+                <label for="Name">Name</label>
+                <input type="Name" placeholder="Enter your Full Name" name="name">
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your Email i'd" name="email">
+            </div>
+            <div class="field">
+                <label for="password">Mobile No.</label>
+                <input type="tel" id="tel" placeholder="Enter your Mobile Number" name="number">
+            </div>
+            <div class="field">
+                <label for="password">Current Qualification</label>
+                <input type="text" id="tel" placeholder="Enter your Qualification" name="qualification">
+            </div>
+            <div class="field">
+                <label for="Course">Choose Course</label>
+                <select name="Course" id="Course">
+                    <option value="sel">Select a Course</option>
+                    <option value="a">ADCA+</option>
+                    <option value="b">ADCA+</option>
+                    <option value="c">ADCA+</option>
+                    <option value="d">ADCA+</option>
+                </select>
+            </div>
+            <input type="submit" value="Submit" class="btn btn-primary">
+        </form>
+    </div>
+</body>
+</html>

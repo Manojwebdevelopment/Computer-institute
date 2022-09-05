@@ -1,0 +1,102 @@
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+.row{
+    margin: 0px;
+}
+.card {
+    box-shadow: 0.5px 2px 15px 1px black;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 400px;
+}
+.card-body{
+    font-family: system-ui;
+    overflow-y: scroll;
+}
+h6:hover{
+    font-weight: bold;
+}
+/*Card section */
+/* information card */
+.infor{
+    padding-left: 10px;
+    overflow: hidden;
+}
+.infor li{
+    font: 1rem 'Fira Sans', sans-serif;
+    margin-bottom: .5rem;
+    padding-top: 10px;
+    list-style: none;
+    
+}
+
+.infor a{
+    position: relative;
+    animation: next 10s infinite normal ease-in-out;
+    text-decoration: none;
+    color: rgb(253, 6, 6);
+}
+@keyframes next{
+
+    from{top:0px;}
+    to{top:700px;}
+    }
+.ani{
+        padding-left: 10px;
+        position: relative;
+        animation: anim 1s infinite;
+        background-image: linear-gradient(to left, violet, rgb(231, 247, 14), blue, green, rgb(82, 17, 112), orange, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+@keyframes anim{
+    from{left: 0px;}
+    to{left: 10px;}
+}
+
+
+/* course card */
+
+.course{
+    padding-left: 10px;
+}
+.course li{
+    font: 1rem 'Fira Sans', sans-serif;
+    margin-bottom: .5rem;
+    padding-top: 10px;
+}
+.course a{
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+}
+.course a:hover{
+    color: rgb(224, 67, 67);
+    font-weight: bolder;
+}
+
+
+#section1{
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(120deg, #f5576c 0%, #f093fb 100%);
+    border-radius: 10px;
+}
+#section2{
+    padding: 0px;
+    height: 10px;
+    text-align: center;
+    position: relative;
+}
+.card-body, p{
+    text-align: center;
+}

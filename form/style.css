@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	font-family: "Poppins", sans-serif;
+	background-color: #e0e6eb;
+}
+
+
+.container {
+	
+	height: 600px;
+	width: 450px;
+	padding: 10px;
+	background-color: #e0e6eb;
+	border-radius: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	box-shadow: -13px -13px 12px #fff, 13px 13px 12px #cbced1;
+}
+@media (max-width: 600px){
+	.container{
+		padding: 10px;
+		height: 500px;
+		width: 350px;
+	}
+
+}
+form {
+	display: grid;
+	gap: 1rem;
+	/* 	grid-auto-rows: 1rem; */
+}
+
+
+.field {
+	display: grid;
+	gap: 1rem;
+}
+
+input {
+	background: transparent;
+	border-radius: 1.5rem;
+	border: none;
+	padding: 1rem;
+	font-family: inherit;
+	outline: none;
+	box-shadow: inset -5px -5px 12px #fff, inset 5px 5px 12px #cbced1;
+}
+select{
+	border-radius: 1.5rem;
+	border: none;
+	font-family: inherit;
+	background: transparent;
+	box-shadow: inset -5px -5px 12px #fff, inset 5px 5px 12px #cbced1;
+}
+
+.btn {
+	background: transparent;
+	border: none;
+	font-size: 1.25rem;
+	padding: 0.7rem;
+	font-family: inherit;
+	border-radius: 1.5rem;
+	box-shadow: -5px -5px 15px #fff, 5px 5px 15px #cbced1;
+	transition: box-shadow 300ms ease;
+	cursor: pointer;
+}
+
+.btn:hover {
+	box-shadow: -10px -10px 12px #fff, 10px 10px 12px #cbced1;
+}
+@media (max-width: 600px){
+	input{
+		height: 10px;
+	}
+	label{
+		font-size: 15px;
+	}
+}
