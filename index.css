@@ -183,6 +183,7 @@ header nav li {
 	background-size: cover;
 	z-index: -1;
 	background-color: #80a3db;
+        background-position-x: center;
 }
 
 .front h1 {
